@@ -5409,6 +5409,26 @@ AccesoiresSection:NewButton("[PAILLETES] BLUE Sparkles boss hat (OFFSALE)", "...
 toclipboard("173624602")
 end)
 
+AccesoiresSection:NewButton("[PAILLETES] Fée de la St Patrick (65,000 robux)", "...", function()
+	setclipboard("226189871")
+toclipboard("226189871")
+end)
+
+AccesoiresSection:NewButton("[PAILLETES] Fée du printemps (300 robux)", "...", function()
+	setclipboard("150381051")
+toclipboard("150381051")
+end)
+
+AccesoiresSection:NewButton("[PAILLETES] Fée de l'automne (OFFSALE)", "...", function()
+	setclipboard("128217885")
+toclipboard("128217885")
+end)
+
+AccesoiresSection:NewButton("[PAILLETES] Fée de l'hiver (29,000 robux)", "...", function()
+	setclipboard("141742418")
+toclipboard("141742418")
+end)
+
 AccesoiresSection:NewButton("[ANIME] 8-BIT ROBUX (974 robux)", "...", function()
     setclipboard("10159622004")
 toclipboard("10159622004")
@@ -5447,6 +5467,59 @@ end)
 AccesoiresSection:NewButton("[ANIME] Flammes maudites dorées (OFFSALE)", "...", function()
     setclipboard("8666557244")
 toclipboard("8666557244")
+end)
+
+AccesoiresSection:NewButton("[ANIME] Cyber Raptor (OFFSALE)", "...", function()
+    setclipboard("7958789584")
+toclipboard("7958789584")
+end)
+
+AccesoiresSection:NewButton("[ANIME] CD en or (OFFSALE)", "...", function()
+    setclipboard("9648578994")
+toclipboard("9648578994")
+end)
+
+AccesoiresSection:NewButton("[FUME] Bol de nouilles (OFFSALE)", "...", function()
+    setclipboard("9648578994")
+toclipboard("9648578994")
+end)
+AccesoiresSection:NewButton("[ANIME] La chouette (OFFSALE)", "...", function()
+    setclipboard("9648578994")
+toclipboard("9648578994")
+end)
+
+AccesoiresSection:NewButton("[FEU] épaulières crâne (OFFSALE)", "...", function()
+    setclipboard("9648578994")
+toclipboard("9648578994")
+end)
+
+AccesoiresSection:NewButton("[FEU] Tronche de guimauve cramée (OFFSALE)", "...", function()
+    setclipboard("9862651601")
+toclipboard("9862651601")
+end)
+AccesoiresSection:NewButton("[PROUT] Il pue du cul (OFFSALE)", "...", function()
+    setclipboard("11385808641")
+toclipboard("11385808641")
+end)
+
+AccesoiresSection:NewButton("[ANIME] L'Archange (OFFSALE)", "...", function()
+    setclipboard("11385808641")
+toclipboard("11385808641")
+end)
+
+AccesoiresSection:NewButton("[ANIME] Noob de voyage (OFFSALE)", "...", function()
+    setclipboard("7958755146")
+toclipboard("7958755146")
+end)
+
+AccesoiresSection:NewButton("[ANIME] La ville de roblox (OFFSALE)", "...", function()
+    setclipboard("2649326901")
+toclipboard("2649326901")
+end)
+
+AccesoiresSection:NewButton("[LUMIERE] Diamant du golem (OFFSALE)", "...", function()
+    setclipboard("4504231783")
+toclipboard("4504231783")
 end)
 
 AccesoiresSection:NewButton("Violet Valk (50,000 robux)", "...", function()
@@ -5709,6 +5782,11 @@ AccesoiresSection:NewButton("leopard sunglasses", "...", function()
 toclipboard("212947361")
 end)
 
+AccesoiresSection:NewButton("Bientot...", "...", function()
+	setclipboard("Soon...")
+toclipboard("Soon...")
+end)
+
 local Joueur = Window:NewTab("Joueur")
 local JoueurSection = Joueur:NewSection("Joueur")
 
@@ -5845,7 +5923,7 @@ SonSection:NewButton("Raymond de la passion", "...", function()
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Lien copié",
 	Text = "Copié dans le presse-papier",
-	Icon = "rbxassetid://9676989223"
+	Icon = "rbxassetid://679588081"
 })
 setclipboard("https://soundcloud.com/arcko-du-34/raymond-de-la-passion-exotique-playlist?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
 toclipboard("https://soundcloud.com/arcko-du-34/raymond-de-la-passion-exotique-playlist?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
@@ -5855,7 +5933,7 @@ SonSection:NewButton("Mes copains et moi", "...", function()
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Lien copié",
 	Text = "Copié dans le presse-papier",
-	Icon = "rbxassetid://9676989223"
+	Icon = "rbxassetid://679588081"
 })
 setclipboard("https://soundcloud.com/arcko-du-34/mes-copains-et-moi?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
 toclipboard("https://soundcloud.com/arcko-du-34/mes-copains-et-moi?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
@@ -5865,8 +5943,18 @@ SonSection:NewButton("où est tu ?", "...", function()
     game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Lien copié",
 	Text = "Copié dans le presse-papier",
-	Icon = "rbxassetid://9676989223"
+	Icon = "rbxassetid://679588081"
 })
 setclipboard("https://soundcloud.com/arcko-du-34/ou-es-tu?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
 toclipboard("https://soundcloud.com/arcko-du-34/ou-es-tu?si=9e34be7c655741af9660de34f90fbd7d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+end)
+
+SonSection:NewButton("Emo Succulent", "...", function()
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Lien copié",
+	Text = "Copié dans le presse-papier",
+	Icon = "rbxassetid://45166675"
+})
+setclipboard("https://soundcloud.com/arcko-du-34/emo-slow-down-succulent-edition?si=0b574485ff8645788660635e6d0be0ce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+toclipboard("https://soundcloud.com/arcko-du-34/emo-slow-down-succulent-edition?si=0b574485ff8645788660635e6d0be0ce&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
 end)
